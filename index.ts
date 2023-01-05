@@ -12,7 +12,7 @@ const sleep = () => {
 
 async function greet() {
   let rainbowTitle = chalkAnimation.rainbow(
-    "Welcome to Guess the Number game, By M.Dawar"
+    "Welcome to Guess the Number game"
   );
   await sleep();
   rainbowTitle.stop();
